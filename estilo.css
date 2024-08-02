@@ -1,0 +1,37 @@
+footer{
+			background-color: black;
+
+		}
+		div{
+			background-color: yellow;
+			scale: 50%;
+
+		}
+
+		img{
+			border-radius: 20px;
+
+		}
+
+		.imagen img:hover{
+      
+      -webkit-transform: scale(1.2);
+      -moz-transform:scale(1);
+      -o-transform: scale(1);
+      -ms-transform: scale(1,2);
+    }
+
+     .imagen img{
+      -webkit-transition: -webkit-transform 0.3s ease-in-out 0.1s;
+      -moz-transition: -moz-transform 0.3s ease-in-out 0.1s;
+      -o-transition: -o-transform 0.3s ease-in-out 0.1s;
+      -ms-transition: -ms-transform 0.3s ease-in-out 0.1s;
+    }
+
+		a:hover{
+			color: red;
+		}
+
+		a:active{
+			color: white;
+		}
